@@ -1,0 +1,29 @@
+HTTPS works the same as HTTP , it’s only more secure. The additional letter, S, stands for security, and, as mentioned earlier, it means it’s using a SSL certificate.
+
+HTTP requests and response status code
+HTTP requests can have a range of different methods.
+
+GET is used to get data from a web server.
+POST is used to send data from a web server.
+PUT is used to update data from a web server
+DELETE is used to delete data from a web server
+An HTTP request will always return a response, at least with the status code indicating if the request has been successful or not. Some of the most popular status codes are:
+
+Informational responses (100–199)
+Successful responses (200–299)
+Redirection messages (300–399)
+Client error responses (400–499)
+Server error responses (500–599)
+Web and Application Servers
+A web server is computer software and underlying hardware that accepts requests via HTTP/HTTPS and serves static content, like simple HTML pages, images or plain text files, in other words content that doesn’t change. It’s the web server job to find content corresponding to the website address requested, and to serve it as an HTTP/HTTPS response. Examples of web servers are Nginx or Apache.
+
+However most of sites don’t only have static content. Quite the opposite most web apps depend on dynamic content, content that changes. That means, for example, it’s possible to interact with the website, save information into it, log in with a user name and a password and so on. For this, we need the application server!
+
+An application server is a software program responsible for operating applications, communicate with database server, manage user information, and more. It works with the web servers and is able to serve a dynamic application using the static content from the web server.
+
+Database
+Another crucial component in the client-server computing environment is the database server, which consists of hardware and software that run a database. A database is a collection of data, and the database server is the program that interacts with the database and retrieve, add, modify data in it. The two main ones are relational databases, and non-relational databases. PostgreSQL, MySQL, SQLite, MariaDB are some the most popular relational databases.
+
+Conclusion
+All of this steps, sending and recieving data and responses happens in a very short time, even before we notice. But anytime we type www.google.com, all this steps must happen. I hope this article helps you get a better understanding of the processes involved when we type www.google.com.
+
